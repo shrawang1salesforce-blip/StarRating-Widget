@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Star Rating</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="rating-widget">
+      <p class="eyebrow">QUICK FEEDBACK</p>
+      <h1>How was your experience?</h1>
+      <p class="intro">Your honest take helps us make the next one better.</p>
+
+      <div class="stars" role="group" aria-label="Rate your experience">
+        <button class="star" type="button" data-rating="1" aria-label="1 out of 5 stars" aria-pressed="false">&#9733;</button>
+        <button class="star" type="button" data-rating="2" aria-label="2 out of 5 stars" aria-pressed="false">&#9733;</button>
+        <button class="star" type="button" data-rating="3" aria-label="3 out of 5 stars" aria-pressed="false">&#9733;</button>
+        <button class="star" type="button" data-rating="4" aria-label="4 out of 5 stars" aria-pressed="false">&#9733;</button>
+        <button class="star" type="button" data-rating="5" aria-label="5 out of 5 stars" aria-pressed="false">&#9733;</button>
+      </div>
+
+      <p class="rating-result" aria-live="polite">No rating yet</p>
+      <p class="rating-preview" aria-hidden="true"></p>
+    </main>
+  </body>
+</html>
